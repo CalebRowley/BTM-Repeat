@@ -19,7 +19,7 @@ COMMON=(
 )
 for spec in python:3 javascript:3 law:3 typescript:1 rust:1 contracts:1 web:1; do
   d="${spec%%:*}"; w="${spec##*:}"
-  nohup caffeinate -is .venv/bin/python -m btm.data.prepare "${FLAGS[@]}" --domains "$d" "${COMMON[@]}" --set "num_workers=$w" \
+  nohup caffeinate -is .venv/bin/python -m btm.data.prepare ${FLAGS[@]+"${FLAGS[@]}"} --domains "$d" "${COMMON[@]}" --set "num_workers=$w" \
     > "$LOG_DIR/$d.log" 2>&1 &
   echo "$d pid=$! workers=$w log=$LOG_DIR/$d.log"
 done
