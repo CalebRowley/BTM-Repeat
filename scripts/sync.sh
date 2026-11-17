@@ -10,7 +10,8 @@ fi
 echo "$SHA" > GIT_SHA
 rsync -az --delete \
   --exclude '.git' --exclude '__pycache__' --exclude '.venv' --exclude '.pytest_cache' \
-  --exclude 'results/' --exclude 'requirements.lock' --exclude 'CUAD_v1/' \
+  --exclude 'results/' --exclude 'requirements.lock' --exclude '/CUAD_v1/' \
+  --exclude '/data/' --exclude '/data_smoke/' --exclude '/logs/' --exclude '/ckpt/' --exclude '/ckpt_smoke/' \
   ./ "$HOST:/workspace/btm/code/"
 if [ -d CUAD_v1/full_contract_txt ]; then
   rsync -az --mkpath CUAD_v1/full_contract_txt/ "$HOST:/workspace/btm/raw/cuad/full_contract_txt/"
