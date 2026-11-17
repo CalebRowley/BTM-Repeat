@@ -18,7 +18,11 @@ def load_config(path, overrides=()):
         cfg = merged
     for item in overrides or ():
         key, value = item.split("=", 1)
-        cfg[key] = yaml.safe_load(value)
+        *parents, leaf = key.split(".")
+        node = cfg
+        for p in parents:
+            node = node.setdefault(p, {})
+        node[leaf] = yaml.safe_load(value)
     return cfg
 
 
