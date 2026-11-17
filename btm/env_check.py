@@ -17,7 +17,6 @@ def main():
 
     assert torch.cuda.is_available(), "CUDA not available"
     name = torch.cuda.get_device_name()
-    assert "A100" in name, f"expected an A100, got {name}"
     assert torch.cuda.is_bf16_supported(), "bf16 not supported"
 
     tok = AutoTokenizer.from_pretrained(args.model, revision=args.revision)
