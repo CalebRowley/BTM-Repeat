@@ -1,0 +1,24 @@
+seq_len: 2048
+global_batch_seqs: 256
+micro_batch_seqs: 16
+train_tokens: 1_000_000_000
+optimizer: adamw
+betas: [0.9, 0.95]
+eps: 1.0e-8
+weight_decay: 0.01
+lr_peak: 3.0e-4
+lr_min: 3.0e-5
+warmup_steps: 50
+schedule: cosine
+grad_clip: 1.0
+precision: bf16_autocast
+attn_implementation: sdpa
+compile: true
+data_seed: 1234
+eval_every_steps: 200
+eval_windows: 64
+eval_window_len: 1024
+resume_ckpt_every_steps: 200
+snapshot_fractions: [0.25, 0.5, 0.75, 1.0]
+ckpt_root: /workspace/btm/ckpt
+log_root: /workspace/btm/logs

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+.env
+GIT_SHA
+data/
+data_smoke/
+ckpt/
+ckpt_smoke/
+hf_cache/
+logs/
+results/logprobs/
+CUAD_v1/

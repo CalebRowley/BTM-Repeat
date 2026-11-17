@@ -1,0 +1,9 @@
+base: base_elm.yaml
+run_name: smoke_python
+model_init: /workspace/btm/ckpt/seed
+train_data: /workspace/btm/data_smoke/tok/python/train
+global_batch_seqs: 32
+train_tokens: 2_621_440
+eval_every_steps: 20
+resume_ckpt_every_steps: 10
+ckpt_root: /workspace/btm/ckpt_smoke

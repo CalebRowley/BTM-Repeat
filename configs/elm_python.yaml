@@ -1,0 +1,4 @@
+base: base_elm.yaml
+run_name: elm_python
+model_init: /workspace/btm/ckpt/seed
+train_data: /workspace/btm/data/tok/python/train

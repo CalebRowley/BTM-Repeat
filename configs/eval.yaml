@@ -1,0 +1,16 @@
+data_root: /workspace/btm/data/tok
+logprob_root: /workspace/btm/results/logprobs
+results_root: /workspace/btm/results
+ckpt_root: /workspace/btm/ckpt
+log_root: /workspace/btm/logs
+window: 1024
+prior_windows: 100
+batch_size: 32
+dtype: fp32
+attn_implementation: sdpa
+splits: [dev, test]
+domains: [python, javascript, law, typescript, rust, contracts, web]
+in_domain: [python, javascript, law]
+held_out: [typescript, rust, contracts, web]
+elms: [elm_python, elm_javascript, elm_law]
+topk: [1, 2]

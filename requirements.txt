@@ -1,0 +1,9 @@
+transformers
+datasets
+huggingface_hub
+safetensors
+numpy
+pyyaml
+tqdm
+matplotlib
+pytest

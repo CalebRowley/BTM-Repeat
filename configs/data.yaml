@@ -1,0 +1,94 @@
+tokenizer: EleutherAI/pythia-160m-deduped
+tokenizer_revision: step143000
+out_dir: /workspace/btm/data/tok
+smoke_out_dir: /workspace/btm/data_smoke/tok
+shard_tokens: 100_000_000
+num_workers: 14
+batch_docs: 256
+progress_every_s: 60
+
+filters:
+  code:
+    max_line_length: 1000
+    avg_line_length: 100
+    alphanum_fraction: 0.25
+    max_size_bytes: 1_048_576
+  law:
+    min_chars: 500
+
+smoke_targets:
+  train: 5_000_000
+  dev: 500_000
+  test: 500_000
+
+domains:
+  python:
+    loader: hf_stream
+    source: bigcode/the-stack-dedup
+    data_dir: data/python
+    text_field: content
+    group_field: max_stars_repo_name
+    expected_fields: [content, max_stars_repo_name, avg_line_length, max_line_length, alphanum_fraction, size]
+    filter: code
+    targets: {train: 1_000_000_000, distill: 300_000_000, dev: 5_000_000, test: 5_000_000}
+
+  javascript:
+    loader: hf_stream
+    source: bigcode/the-stack-dedup
+    data_dir: data/javascript
+    text_field: content
+    group_field: max_stars_repo_name
+    expected_fields: [content, max_stars_repo_name, avg_line_length, max_line_length, alphanum_fraction, size]
+    filter: code
+    targets: {train: 1_000_000_000, distill: 300_000_000, dev: 5_000_000, test: 5_000_000}
+
+  law:
+    loader: hf_stream
+    source: TeraflopAI/Caselaw-Access-Project
+    text_field: text
+    group_field: id
+    expected_fields: [id, text]
+    filter: law
+    targets: {train: 1_000_000_000, distill: 300_000_000, dev: 5_000_000, test: 5_000_000}
+
+  typescript:
+    loader: hf_stream
+    source: bigcode/the-stack-dedup
+    data_dir: data/typescript
+    text_field: content
+    group_field: max_stars_repo_name
+    expected_fields: [content, max_stars_repo_name, avg_line_length, max_line_length, alphanum_fraction, size]
+    filter: code
+    targets: {dev: 1_000_000, test: 3_000_000}
+
+  rust:
+    loader: hf_stream
+    source: bigcode/the-stack-dedup
+    data_dir: data/rust
+    text_field: content
+    group_field: max_stars_repo_name
+    expected_fields: [content, max_stars_repo_name, avg_line_length, max_line_length, alphanum_fraction, size]
+    filter: code
+    targets: {dev: 1_000_000, test: 3_000_000}
+
+  contracts:
+    loader: local_files
+    source: CUAD v1 official release (Zenodo zip)
+    root: /workspace/btm/raw/cuad/full_contract_txt
+    glob: "**/*.txt"
+    text_field: text
+    group_field: path
+    expected_fields: [text, path]
+    filter: law
+    targets: {dev: null, test: null}
+    weights: {dev: 0.09, test: 0.91}
+
+  web:
+    loader: hf_stream
+    source: HuggingFaceFW/fineweb-edu
+    config: sample-10BT
+    text_field: text
+    group_field: id
+    expected_fields: [text, id]
+    filter: none
+    targets: {dev: 1_000_000, test: 3_000_000}
