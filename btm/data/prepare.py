@@ -245,6 +245,11 @@ def process_domain(name, cfg, out_root, smoke, tok_meta):
             if full(split):
                 stats["drop_split_full"] += 1
                 continue
+            if targets[split] is not None and len(ids) > targets[split] - writers[split].tokens:
+                eos = ids[-1]
+                ids = ids[: targets[split] - writers[split].tokens].copy()
+                ids[-1] = eos
+                stats["truncated_final_doc"] += 1
             writers[split].write(ids)
             groups[split].add(gid)
             stats["kept"] += 1
