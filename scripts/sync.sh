@@ -14,6 +14,7 @@ rsync -az --no-owner --no-group --delete --exclude .DS_Store \
   --exclude '/data/' --exclude '/data_smoke/' --exclude '/logs/' --exclude '/ckpt/' --exclude '/ckpt_smoke/' \
   ./ "$HOST:/workspace/btm/code/"
 if [ -d CUAD_v1/full_contract_txt ]; then
-  rsync -az --no-owner --no-group --mkpath CUAD_v1/full_contract_txt/ "$HOST:/workspace/btm/raw/cuad/full_contract_txt/"
+  ssh "$HOST" "mkdir -p /workspace/btm/raw/cuad/full_contract_txt"
+  rsync -az --no-owner --no-group CUAD_v1/full_contract_txt/ "$HOST:/workspace/btm/raw/cuad/full_contract_txt/"
 fi
 echo "synced $SHA to $HOST"
