@@ -8,12 +8,12 @@ if [ -n "$(git status --porcelain)" ]; then
   SHA="$SHA-dirty"
 fi
 echo "$SHA" > GIT_SHA
-rsync -az --delete \
+rsync -az --no-owner --no-group --delete --exclude .DS_Store \
   --exclude '.git' --exclude '__pycache__' --exclude '.venv' --exclude '.pytest_cache' \
   --exclude 'results/' --exclude 'requirements.lock' --exclude '/CUAD_v1/' \
   --exclude '/data/' --exclude '/data_smoke/' --exclude '/logs/' --exclude '/ckpt/' --exclude '/ckpt_smoke/' \
   ./ "$HOST:/workspace/btm/code/"
 if [ -d CUAD_v1/full_contract_txt ]; then
-  rsync -az --mkpath CUAD_v1/full_contract_txt/ "$HOST:/workspace/btm/raw/cuad/full_contract_txt/"
+  rsync -az --no-owner --no-group --mkpath CUAD_v1/full_contract_txt/ "$HOST:/workspace/btm/raw/cuad/full_contract_txt/"
 fi
 echo "synced $SHA to $HOST"
