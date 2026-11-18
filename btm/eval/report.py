@@ -16,6 +16,8 @@ DEVIATIONS = [
     "Domains and iterations: 3 domains and 2 BTM iterations. The seed is included as a candidate when averaging for branching.",
     "Branching weights: the mean of per-window posteriors (uniform prior) over 100 dev windows.",
     "Law data: TeraflopAI/Caselaw-Access-Project replaces free-law/Caselaw_Access_Project (gated with manual approval).",
+    "Hardware and precision: 1x H100 SXM instead of A100; fp32 weights with TF32 matmuls instead of bf16 autocast, "
+    "because bf16 inflated Pythia-160M's loss by 20-50% and gradient norms by 20-100x. torch.compile off (slower here).",
     "Eval data: some evaluation data may overlap with the seed's pretraining data.",
     "No compute-matched dense baseline (out of scope).",
 ]

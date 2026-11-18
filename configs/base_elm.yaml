@@ -11,9 +11,9 @@ lr_min: 3.0e-5
 warmup_steps: 50
 schedule: cosine
 grad_clip: 1.0
-precision: bf16_autocast
+precision: tf32
 attn_implementation: sdpa
-compile: true
+compile: false
 data_seed: 1234
 eval_every_steps: 200
 eval_windows: 64
