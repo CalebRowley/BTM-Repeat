@@ -1,0 +1,8 @@
+domain,elm_python,elm_javascript,elm_law
+python,1.0000,0.0000,0.0000
+javascript,0.0000,1.0000,0.0000
+law,0.0000,0.0000,1.0000
+typescript,0.0000,1.0000,0.0000
+rust,0.6381,0.3619,0.0000
+contracts,0.0200,0.0100,0.9700
+web,0.0463,0.5137,0.4400

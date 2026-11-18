@@ -1,0 +1,1360 @@
+{
+  "git_sha": "fd253a8036394bf9978dfc60421a3bf235e7e34d",
+  "created": "2026-11-18T09:49:38+0000",
+  "checkpoints": {
+    "avg_post_contracts/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "avg_post_contracts/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "avg_post_contracts/model.safetensors": "b71ab95a7e0d0adfcdd8c7c54b25b723208b91b0dcb9b9709b2e40eb413377fa",
+    "avg_post_contracts/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "avg_post_contracts/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "avg_post_contracts/weights.json": "94790215027431b5ec5d26e328e919245e26f37b1d095b25046ec7e4aceddf23",
+    "avg_post_javascript/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "avg_post_javascript/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "avg_post_javascript/model.safetensors": "53df3e462d5bfb9f656d7716ee34a543a8eb73e9d3f165da014d87215891438a",
+    "avg_post_javascript/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "avg_post_javascript/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "avg_post_javascript/weights.json": "eb68109de3cf6ae1f014cdd07988ebfa522375c3330315a2666563fa5ab5b6f6",
+    "avg_post_law/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "avg_post_law/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "avg_post_law/model.safetensors": "19d72ac9d847677e37a8fd64a9a317b8e42d73b4ca5c2396f2163f85ef0838ce",
+    "avg_post_law/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "avg_post_law/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "avg_post_law/weights.json": "dd6f14ae6b587fcacca18af62eca7b4bbc66636e58355ff9c4f556e0b089ebd8",
+    "avg_post_python/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "avg_post_python/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "avg_post_python/model.safetensors": "ff874531ef7d16bca1a7b0dfba69372a7bf0b0f84ce25c94f4aa6fdfa4504bb4",
+    "avg_post_python/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "avg_post_python/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "avg_post_python/weights.json": "138dd4f39c4cb659164ab265c25e97e7bd78475c4ffc3e258072a3af156c45a3",
+    "avg_post_rust/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "avg_post_rust/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "avg_post_rust/model.safetensors": "d82641945cf916a5801a5ead984dc35185a4b493a14c4c7201cce0a3ff01f7bc",
+    "avg_post_rust/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "avg_post_rust/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "avg_post_rust/weights.json": "606c06eec762b576d992ffd7bb220fcd41813beef4b833f68eb163184d2a7750",
+    "avg_post_typescript/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "avg_post_typescript/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "avg_post_typescript/model.safetensors": "24a1d992430feee8fbe764a5b1a6668b61a2b457146c1fbf2c6357d3f0b5f6cc",
+    "avg_post_typescript/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "avg_post_typescript/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "avg_post_typescript/weights.json": "20607ef67da0c15cec5c2860268800f41d162adb77191508341da9803d39d210",
+    "avg_post_web/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "avg_post_web/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "avg_post_web/model.safetensors": "0b3de6e0ca12670dca758c5f845abe50109d436d571fa1c95f157f268823f751",
+    "avg_post_web/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "avg_post_web/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "avg_post_web/weights.json": "8149e3beb7b2ef771cd8db4afce5a39400f6c7ed44609b1b5f43273934afdd9f",
+    "avg_uniform/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "avg_uniform/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "avg_uniform/model.safetensors": "0bba24809b71a5b5f31133734f64498ae37e18ac516fd706f9a8007821cfa248",
+    "avg_uniform/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "avg_uniform/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "avg_uniform/weights.json": "aeb3a8bd6a40c7d403cca30f1e74dcd8d812964dbd0fc82188e0cb6878521dcc",
+    "elm_javascript/DONE": "0c1e78c3de5219469c44e1d4130975ddbe9c68af2ceb7ae081f7a3a03a1028c1",
+    "elm_javascript/final/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_javascript/final/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_javascript/final/model.safetensors": "f5e80ebbbfa9ddfcac972dff5318f6eebd81ff64cacedfa94bce454737cf9efa",
+    "elm_javascript/final/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_javascript/final/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_javascript/step_1430/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_javascript/step_1430/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_javascript/step_1430/model.safetensors": "209c041ceb4aa12c3dc55ee38da97637b172e77a1d024080fe77184bd75d78d4",
+    "elm_javascript/step_1430/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_javascript/step_1430/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_javascript/step_1907/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_javascript/step_1907/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_javascript/step_1907/model.safetensors": "f5e80ebbbfa9ddfcac972dff5318f6eebd81ff64cacedfa94bce454737cf9efa",
+    "elm_javascript/step_1907/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_javascript/step_1907/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_javascript/step_477/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_javascript/step_477/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_javascript/step_477/model.safetensors": "9b0d348a58d7b1b38d25ef92386d042c7ccdda645d8ef6e72c6655e602dd1f1c",
+    "elm_javascript/step_477/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_javascript/step_477/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_javascript/step_954/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_javascript/step_954/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_javascript/step_954/model.safetensors": "96bb843c0378eac2d77dfb326bb7ea0ba19e9c83179a4e2f9be49f241e6a2f9e",
+    "elm_javascript/step_954/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_javascript/step_954/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_law/DONE": "87ff5f4f5b21dde77ea39ed87e5c33af6280c4916a5fdd627408d4bea94b4b54",
+    "elm_law/final/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_law/final/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_law/final/model.safetensors": "19d72ac9d847677e37a8fd64a9a317b8e42d73b4ca5c2396f2163f85ef0838ce",
+    "elm_law/final/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_law/final/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_law/step_1430/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_law/step_1430/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_law/step_1430/model.safetensors": "e68ee1d063f2cc0d9ed1789b5631830b79e2688828032f8d84cf97d0930edb77",
+    "elm_law/step_1430/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_law/step_1430/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_law/step_1907/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_law/step_1907/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_law/step_1907/model.safetensors": "19d72ac9d847677e37a8fd64a9a317b8e42d73b4ca5c2396f2163f85ef0838ce",
+    "elm_law/step_1907/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_law/step_1907/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_law/step_477/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_law/step_477/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_law/step_477/model.safetensors": "8dc18ea325d84c2dc70d83d9233095e1003d6c6253e05aadf61cfc519b2321fe",
+    "elm_law/step_477/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_law/step_477/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_law/step_954/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_law/step_954/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_law/step_954/model.safetensors": "d00e81d7df2beed792c58a655b6946573d076b5ec5eb0166049628588bf4ea3b",
+    "elm_law/step_954/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_law/step_954/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_law_init/config.json": "caf64b7e440073e417c2c0fa43e6297de53bc6fc62aa8c446c929cdb0afc7ea7",
+    "elm_law_init/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_law_init/model.safetensors": "4e88567d668fe7f5ebd90c13aa7793bfe6a8d7cf80810f4cb6541b6f2521f5ae",
+    "elm_law_init/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_law_init/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_law_init/weights.json": "7862b18853fca4f3f737bd06abe41c4f32caf6a4a9d9cec844b0e1476d0c9c0a",
+    "elm_python/DONE": "789fdf2fc770bb263fa616b57696cc0759f9161e737ffb1662ef6b3f4d9633ae",
+    "elm_python/final/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_python/final/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_python/final/model.safetensors": "ff874531ef7d16bca1a7b0dfba69372a7bf0b0f84ce25c94f4aa6fdfa4504bb4",
+    "elm_python/final/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_python/final/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_python/step_1430/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_python/step_1430/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_python/step_1430/model.safetensors": "ba035bdb5ec3faa9b9c0df7e125829a67230c52625cc18fb689ff8254b6bce97",
+    "elm_python/step_1430/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_python/step_1430/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_python/step_1907/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_python/step_1907/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_python/step_1907/model.safetensors": "ff874531ef7d16bca1a7b0dfba69372a7bf0b0f84ce25c94f4aa6fdfa4504bb4",
+    "elm_python/step_1907/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_python/step_1907/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_python/step_477/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_python/step_477/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_python/step_477/model.safetensors": "c895b022ffe47b268012a31036625ad2f835a3aadb37ddcd859197a01f2db4db",
+    "elm_python/step_477/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_python/step_477/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "elm_python/step_954/config.json": "d01dbde71696c05e66f556f8942e8267f3c1aa85a31b7824f8ae09640e0e336b",
+    "elm_python/step_954/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "elm_python/step_954/model.safetensors": "126222d198f6c492b55d38cfcffc39c48897768fc7f4182d9a88d9714e450041",
+    "elm_python/step_954/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "elm_python/step_954/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "law_init_uniform/config.json": "caf64b7e440073e417c2c0fa43e6297de53bc6fc62aa8c446c929cdb0afc7ea7",
+    "law_init_uniform/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "law_init_uniform/model.safetensors": "5b49fe94cd4dbde535c216a78435157ff8296e070e7670956622fb845290b765",
+    "law_init_uniform/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "law_init_uniform/tokenizer_config.json": "77778f356defdc175e96433d191c53e198f965da749d882e997e9618150e26f4",
+    "law_init_uniform/weights.json": "4a49e8385b369dd1dfb646353a93408a66d9b0ac0ad86085d5eb397e47d995ba",
+    "seed/config.json": "caf64b7e440073e417c2c0fa43e6297de53bc6fc62aa8c446c929cdb0afc7ea7",
+    "seed/generation_config.json": "c76754e997209ca987cd3a77b3fe1ca80820e13015cb3ffa8bef6a95956f59f3",
+    "seed/model.safetensors": "38efddf97ab820b9483302e2e4c104f794cef518a291b249e2be1d26e2ae50c9",
+    "seed/seed_meta.json": "a04e7f2f989c98478300e9431f695ea9de8f01a2f44b4368fe6a1b5865452b66",
+    "seed/tokenizer.json": "0c285b82851d39be7333193b44c676298523a0cdb86719e4fbc390b48e518c8a",
+    "seed/tokenizer_config.json": "f6013726b45b541b3c2d0d8a9fb2e1aa7011aad7985b02b42ce8d154136bed26"
+  },
+  "data_meta": {
+    "contracts/dev/meta.json": {
+      "domain": "contracts",
+      "split": "dev",
+      "tokens": 443060,
+      "documents": 45,
+      "target": null,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 443060
+        }
+      ],
+      "drops": {
+        "seen": 510,
+        "drop_duplicate": 1,
+        "kept": 509
+      },
+      "source": "CUAD v1 official release (Zenodo zip)",
+      "revision": "sha256:35aac53ea6b103d902b14b599f72ccb615cfd4160be617b75a7b83628c4e0360",
+      "data_dir": "/Users/calebr/Desktop/Coding/BTM-Repeat/CUAD_v1/full_contract_txt",
+      "config": null,
+      "filter": "law",
+      "filter_params": {
+        "min_chars": 500
+      },
+      "split_probs": {
+        "dev": 0.09,
+        "test": 0.91
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T14:53:10-0700"
+    },
+    "contracts/test/meta.json": {
+      "domain": "contracts",
+      "split": "test",
+      "tokens": 5086405,
+      "documents": 464,
+      "target": null,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 5086405
+        }
+      ],
+      "drops": {
+        "seen": 510,
+        "drop_duplicate": 1,
+        "kept": 509
+      },
+      "source": "CUAD v1 official release (Zenodo zip)",
+      "revision": "sha256:35aac53ea6b103d902b14b599f72ccb615cfd4160be617b75a7b83628c4e0360",
+      "data_dir": "/Users/calebr/Desktop/Coding/BTM-Repeat/CUAD_v1/full_contract_txt",
+      "config": null,
+      "filter": "law",
+      "filter_params": {
+        "min_chars": 500
+      },
+      "split_probs": {
+        "dev": 0.09,
+        "test": 0.91
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T14:53:10-0700"
+    },
+    "javascript/dev/meta.json": {
+      "domain": "javascript",
+      "split": "dev",
+      "tokens": 5000000,
+      "documents": 5058,
+      "target": 5000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 5000000
+        }
+      ],
+      "drops": {
+        "seen": 1515431,
+        "drop_max_line_length": 82001,
+        "drop_avg_line_length": 29590,
+        "drop_alphanum_fraction": 1238,
+        "kept": 1266445,
+        "drop_duplicate": 55,
+        "truncated_final_doc": 4,
+        "drop_split_full": 136102
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/javascript",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T15:48:23-0700"
+    },
+    "javascript/distill/meta.json": {
+      "domain": "javascript",
+      "split": "distill",
+      "tokens": 300000000,
+      "documents": 289513,
+      "target": 300000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 100000598
+        },
+        {
+          "file": "shard_00001.bin",
+          "tokens": 100022977
+        },
+        {
+          "file": "shard_00002.bin",
+          "tokens": 99976425
+        }
+      ],
+      "drops": {
+        "seen": 1515431,
+        "drop_max_line_length": 82001,
+        "drop_avg_line_length": 29590,
+        "drop_alphanum_fraction": 1238,
+        "kept": 1266445,
+        "drop_duplicate": 55,
+        "truncated_final_doc": 4,
+        "drop_split_full": 136102
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/javascript",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T15:48:23-0700"
+    },
+    "javascript/test/meta.json": {
+      "domain": "javascript",
+      "split": "test",
+      "tokens": 5000000,
+      "documents": 4661,
+      "target": 5000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 5000000
+        }
+      ],
+      "drops": {
+        "seen": 1515431,
+        "drop_max_line_length": 82001,
+        "drop_avg_line_length": 29590,
+        "drop_alphanum_fraction": 1238,
+        "kept": 1266445,
+        "drop_duplicate": 55,
+        "truncated_final_doc": 4,
+        "drop_split_full": 136102
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/javascript",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T15:48:23-0700"
+    },
+    "javascript/train/meta.json": {
+      "domain": "javascript",
+      "split": "train",
+      "tokens": 1000000000,
+      "documents": 967213,
+      "target": 1000000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 100001192
+        },
+        {
+          "file": "shard_00001.bin",
+          "tokens": 100000229
+        },
+        {
+          "file": "shard_00002.bin",
+          "tokens": 100014280
+        },
+        {
+          "file": "shard_00003.bin",
+          "tokens": 100000583
+        },
+        {
+          "file": "shard_00004.bin",
+          "tokens": 100028836
+        },
+        {
+          "file": "shard_00005.bin",
+          "tokens": 100000026
+        },
+        {
+          "file": "shard_00006.bin",
+          "tokens": 100000015
+        },
+        {
+          "file": "shard_00007.bin",
+          "tokens": 100002577
+        },
+        {
+          "file": "shard_00008.bin",
+          "tokens": 100000228
+        },
+        {
+          "file": "shard_00009.bin",
+          "tokens": 99952034
+        }
+      ],
+      "drops": {
+        "seen": 1515431,
+        "drop_max_line_length": 82001,
+        "drop_avg_line_length": 29590,
+        "drop_alphanum_fraction": 1238,
+        "kept": 1266445,
+        "drop_duplicate": 55,
+        "truncated_final_doc": 4,
+        "drop_split_full": 136102
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/javascript",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T15:48:23-0700"
+    },
+    "law/dev/meta.json": {
+      "domain": "law",
+      "split": "dev",
+      "tokens": 5000000,
+      "documents": 1464,
+      "target": 5000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 5000000
+        }
+      ],
+      "drops": {
+        "seen": 490805,
+        "drop_min_chars": 29359,
+        "kept": 393239,
+        "drop_duplicate": 4,
+        "truncated_final_doc": 4,
+        "drop_split_full": 68203
+      },
+      "source": "TeraflopAI/Caselaw-Access-Project",
+      "revision": "a4821d2d29a88d496dfa69f570120f4396bfc593",
+      "data_dir": null,
+      "config": null,
+      "filter": "law",
+      "filter_params": {
+        "min_chars": 500
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "e8724039889dd382777a55eab6edbdca715a7bb8",
+      "timestamp": "2026-11-17T15:50:28-0700"
+    },
+    "law/distill/meta.json": {
+      "domain": "law",
+      "split": "distill",
+      "tokens": 300000000,
+      "documents": 90400,
+      "target": 300000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 100000786
+        },
+        {
+          "file": "shard_00001.bin",
+          "tokens": 100000238
+        },
+        {
+          "file": "shard_00002.bin",
+          "tokens": 99998976
+        }
+      ],
+      "drops": {
+        "seen": 490805,
+        "drop_min_chars": 29359,
+        "kept": 393239,
+        "drop_duplicate": 4,
+        "truncated_final_doc": 4,
+        "drop_split_full": 68203
+      },
+      "source": "TeraflopAI/Caselaw-Access-Project",
+      "revision": "a4821d2d29a88d496dfa69f570120f4396bfc593",
+      "data_dir": null,
+      "config": null,
+      "filter": "law",
+      "filter_params": {
+        "min_chars": 500
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "e8724039889dd382777a55eab6edbdca715a7bb8",
+      "timestamp": "2026-11-17T15:50:28-0700"
+    },
+    "law/test/meta.json": {
+      "domain": "law",
+      "split": "test",
+      "tokens": 5000000,
+      "documents": 1506,
+      "target": 5000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 5000000
+        }
+      ],
+      "drops": {
+        "seen": 490805,
+        "drop_min_chars": 29359,
+        "kept": 393239,
+        "drop_duplicate": 4,
+        "truncated_final_doc": 4,
+        "drop_split_full": 68203
+      },
+      "source": "TeraflopAI/Caselaw-Access-Project",
+      "revision": "a4821d2d29a88d496dfa69f570120f4396bfc593",
+      "data_dir": null,
+      "config": null,
+      "filter": "law",
+      "filter_params": {
+        "min_chars": 500
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "e8724039889dd382777a55eab6edbdca715a7bb8",
+      "timestamp": "2026-11-17T15:50:28-0700"
+    },
+    "law/train/meta.json": {
+      "domain": "law",
+      "split": "train",
+      "tokens": 1000000000,
+      "documents": 299869,
+      "target": 1000000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 100000504
+        },
+        {
+          "file": "shard_00001.bin",
+          "tokens": 100007006
+        },
+        {
+          "file": "shard_00002.bin",
+          "tokens": 100001137
+        },
+        {
+          "file": "shard_00003.bin",
+          "tokens": 100000679
+        },
+        {
+          "file": "shard_00004.bin",
+          "tokens": 100000568
+        },
+        {
+          "file": "shard_00005.bin",
+          "tokens": 100000947
+        },
+        {
+          "file": "shard_00006.bin",
+          "tokens": 100004003
+        },
+        {
+          "file": "shard_00007.bin",
+          "tokens": 100000788
+        },
+        {
+          "file": "shard_00008.bin",
+          "tokens": 100003016
+        },
+        {
+          "file": "shard_00009.bin",
+          "tokens": 99981352
+        }
+      ],
+      "drops": {
+        "seen": 490805,
+        "drop_min_chars": 29359,
+        "kept": 393239,
+        "drop_duplicate": 4,
+        "truncated_final_doc": 4,
+        "drop_split_full": 68203
+      },
+      "source": "TeraflopAI/Caselaw-Access-Project",
+      "revision": "a4821d2d29a88d496dfa69f570120f4396bfc593",
+      "data_dir": null,
+      "config": null,
+      "filter": "law",
+      "filter_params": {
+        "min_chars": 500
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "e8724039889dd382777a55eab6edbdca715a7bb8",
+      "timestamp": "2026-11-17T15:50:28-0700"
+    },
+    "python/dev/meta.json": {
+      "domain": "python",
+      "split": "dev",
+      "tokens": 5000000,
+      "documents": 3740,
+      "target": 5000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 5000000
+        }
+      ],
+      "drops": {
+        "seen": 1202942,
+        "drop_max_line_length": 6155,
+        "drop_avg_line_length": 1417,
+        "drop_alphanum_fraction": 782,
+        "kept": 891952,
+        "drop_duplicate": 175,
+        "drop_size": 1,
+        "truncated_final_doc": 4,
+        "drop_split_full": 302460
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/python",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T15:48:38-0700"
+    },
+    "python/distill/meta.json": {
+      "domain": "python",
+      "split": "distill",
+      "tokens": 300000000,
+      "documents": 204952,
+      "target": 300000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 100009087
+        },
+        {
+          "file": "shard_00001.bin",
+          "tokens": 100003308
+        },
+        {
+          "file": "shard_00002.bin",
+          "tokens": 99987605
+        }
+      ],
+      "drops": {
+        "seen": 1202942,
+        "drop_max_line_length": 6155,
+        "drop_avg_line_length": 1417,
+        "drop_alphanum_fraction": 782,
+        "kept": 891952,
+        "drop_duplicate": 175,
+        "drop_size": 1,
+        "truncated_final_doc": 4,
+        "drop_split_full": 302460
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/python",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T15:48:38-0700"
+    },
+    "python/test/meta.json": {
+      "domain": "python",
+      "split": "test",
+      "tokens": 5000000,
+      "documents": 3102,
+      "target": 5000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 5000000
+        }
+      ],
+      "drops": {
+        "seen": 1202942,
+        "drop_max_line_length": 6155,
+        "drop_avg_line_length": 1417,
+        "drop_alphanum_fraction": 782,
+        "kept": 891952,
+        "drop_duplicate": 175,
+        "drop_size": 1,
+        "truncated_final_doc": 4,
+        "drop_split_full": 302460
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/python",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T15:48:38-0700"
+    },
+    "python/train/meta.json": {
+      "domain": "python",
+      "split": "train",
+      "tokens": 1000000000,
+      "documents": 680158,
+      "target": 1000000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 100000165
+        },
+        {
+          "file": "shard_00001.bin",
+          "tokens": 100000032
+        },
+        {
+          "file": "shard_00002.bin",
+          "tokens": 100001145
+        },
+        {
+          "file": "shard_00003.bin",
+          "tokens": 100000861
+        },
+        {
+          "file": "shard_00004.bin",
+          "tokens": 100001768
+        },
+        {
+          "file": "shard_00005.bin",
+          "tokens": 100001764
+        },
+        {
+          "file": "shard_00006.bin",
+          "tokens": 100000188
+        },
+        {
+          "file": "shard_00007.bin",
+          "tokens": 100002945
+        },
+        {
+          "file": "shard_00008.bin",
+          "tokens": 100006733
+        },
+        {
+          "file": "shard_00009.bin",
+          "tokens": 99984399
+        }
+      ],
+      "drops": {
+        "seen": 1202942,
+        "drop_max_line_length": 6155,
+        "drop_avg_line_length": 1417,
+        "drop_alphanum_fraction": 782,
+        "kept": 891952,
+        "drop_duplicate": 175,
+        "drop_size": 1,
+        "truncated_final_doc": 4,
+        "drop_split_full": 302460
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/python",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "train": 0.7633587786259542,
+        "distill": 0.2290076335877863,
+        "dev": 0.003816793893129722,
+        "test": 0.003816793893129722
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T15:48:38-0700"
+    },
+    "rust/dev/meta.json": {
+      "domain": "rust",
+      "split": "dev",
+      "tokens": 1000000,
+      "documents": 474,
+      "target": 1000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 1000000
+        }
+      ],
+      "drops": {
+        "seen": 4235,
+        "drop_max_line_length": 15,
+        "drop_alphanum_fraction": 1,
+        "kept": 1527,
+        "drop_avg_line_length": 6,
+        "truncated_final_doc": 2,
+        "drop_split_full": 2686
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/rust",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "dev": 0.25,
+        "test": 0.75
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T14:53:15-0700"
+    },
+    "rust/test/meta.json": {
+      "domain": "rust",
+      "split": "test",
+      "tokens": 3000000,
+      "documents": 1053,
+      "target": 3000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 3000000
+        }
+      ],
+      "drops": {
+        "seen": 4235,
+        "drop_max_line_length": 15,
+        "drop_alphanum_fraction": 1,
+        "kept": 1527,
+        "drop_avg_line_length": 6,
+        "truncated_final_doc": 2,
+        "drop_split_full": 2686
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/rust",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "dev": 0.25,
+        "test": 0.75
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T14:53:15-0700"
+    },
+    "typescript/dev/meta.json": {
+      "domain": "typescript",
+      "split": "dev",
+      "tokens": 1000000,
+      "documents": 988,
+      "target": 1000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 1000000
+        }
+      ],
+      "drops": {
+        "seen": 5728,
+        "drop_max_line_length": 43,
+        "drop_avg_line_length": 9,
+        "kept": 3830,
+        "drop_alphanum_fraction": 4,
+        "truncated_final_doc": 2,
+        "drop_split_full": 1842
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/typescript",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "dev": 0.25,
+        "test": 0.75
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T14:53:14-0700"
+    },
+    "typescript/test/meta.json": {
+      "domain": "typescript",
+      "split": "test",
+      "tokens": 3000000,
+      "documents": 2842,
+      "target": 3000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 3000000
+        }
+      ],
+      "drops": {
+        "seen": 5728,
+        "drop_max_line_length": 43,
+        "drop_avg_line_length": 9,
+        "kept": 3830,
+        "drop_alphanum_fraction": 4,
+        "truncated_final_doc": 2,
+        "drop_split_full": 1842
+      },
+      "source": "bigcode/the-stack-dedup",
+      "revision": "17cad72c886a2858e08d4c349a00d6466f54df63",
+      "data_dir": "data/typescript",
+      "config": null,
+      "filter": "code",
+      "filter_params": {
+        "max_line_length": 1000,
+        "avg_line_length": 100,
+        "alphanum_fraction": 0.25,
+        "max_size_bytes": 1048576
+      },
+      "split_probs": {
+        "dev": 0.25,
+        "test": 0.75
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T14:53:14-0700"
+    },
+    "web/dev/meta.json": {
+      "domain": "web",
+      "split": "dev",
+      "tokens": 1000000,
+      "documents": 1043,
+      "target": 1000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 1000000
+        }
+      ],
+      "drops": {
+        "seen": 6616,
+        "kept": 3840,
+        "truncated_final_doc": 2,
+        "drop_split_full": 2776
+      },
+      "source": "HuggingFaceFW/fineweb-edu",
+      "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+      "data_dir": null,
+      "config": "sample-10BT",
+      "filter": "none",
+      "filter_params": null,
+      "split_probs": {
+        "dev": 0.25,
+        "test": 0.75
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T14:53:26-0700"
+    },
+    "web/test/meta.json": {
+      "domain": "web",
+      "split": "test",
+      "tokens": 3000000,
+      "documents": 2797,
+      "target": 3000000,
+      "target_met": true,
+      "shards": [
+        {
+          "file": "shard_00000.bin",
+          "tokens": 3000000
+        }
+      ],
+      "drops": {
+        "seen": 6616,
+        "kept": 3840,
+        "truncated_final_doc": 2,
+        "drop_split_full": 2776
+      },
+      "source": "HuggingFaceFW/fineweb-edu",
+      "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+      "data_dir": null,
+      "config": "sample-10BT",
+      "filter": "none",
+      "filter_params": null,
+      "split_probs": {
+        "dev": 0.25,
+        "test": 0.75
+      },
+      "tokenizer": "EleutherAI/pythia-160m-deduped",
+      "tokenizer_revision": "step143000",
+      "eos_token": "<|endoftext|>",
+      "eos_token_id": 0,
+      "smoke": false,
+      "git_sha": "0ef31a3fa796958fb2b1bca692ab353be0870bf7",
+      "timestamp": "2026-11-17T14:53:26-0700"
+    }
+  },
+  "configs": {
+    "base_elm.yaml": "seq_len: 2048\nglobal_batch_seqs: 256\nmicro_batch_seqs: 16\ntrain_tokens: 1_000_000_000\noptimizer: adamw\nbetas: [0.9, 0.95]\neps: 1.0e-8\nweight_decay: 0.01\nlr_peak: 3.0e-4\nlr_min: 3.0e-5\nwarmup_steps: 50\nschedule: cosine\ngrad_clip: 1.0\nprecision: tf32\nattn_implementation: sdpa\ncompile: false\ndata_seed: 1234\neval_every_steps: 200\neval_windows: 64\neval_window_len: 1024\nresume_ckpt_every_steps: 200\nsnapshot_fractions: [0.25, 0.5, 0.75, 1.0]\nckpt_root: /workspace/btm/ckpt\nlog_root: /workspace/btm/logs\n",
+    "data.yaml": "tokenizer: EleutherAI/pythia-160m-deduped\ntokenizer_revision: step143000\nout_dir: /workspace/btm/data/tok\nsmoke_out_dir: /workspace/btm/data_smoke/tok\nshard_tokens: 100_000_000\nnum_workers: 14\nbatch_docs: 256\nprogress_every_s: 60\n\nfilters:\n  code:\n    max_line_length: 1000\n    avg_line_length: 100\n    alphanum_fraction: 0.25\n    max_size_bytes: 1_048_576\n  law:\n    min_chars: 500\n\nsmoke_targets:\n  train: 5_000_000\n  dev: 500_000\n  test: 500_000\n\ndomains:\n  python:\n    loader: hf_stream\n    source: bigcode/the-stack-dedup\n    data_dir: data/python\n    text_field: content\n    group_field: max_stars_repo_name\n    expected_fields: [content, max_stars_repo_name, avg_line_length, max_line_length, alphanum_fraction, size]\n    filter: code\n    targets: {train: 1_000_000_000, distill: 300_000_000, dev: 5_000_000, test: 5_000_000}\n\n  javascript:\n    loader: hf_stream\n    source: bigcode/the-stack-dedup\n    data_dir: data/javascript\n    text_field: content\n    group_field: max_stars_repo_name\n    expected_fields: [content, max_stars_repo_name, avg_line_length, max_line_length, alphanum_fraction, size]\n    filter: code\n    targets: {train: 1_000_000_000, distill: 300_000_000, dev: 5_000_000, test: 5_000_000}\n\n  law:\n    loader: hf_stream\n    source: TeraflopAI/Caselaw-Access-Project\n    text_field: text\n    group_field: id\n    expected_fields: [id, text]\n    filter: law\n    targets: {train: 1_000_000_000, distill: 300_000_000, dev: 5_000_000, test: 5_000_000}\n\n  typescript:\n    loader: hf_stream\n    source: bigcode/the-stack-dedup\n    data_dir: data/typescript\n    text_field: content\n    group_field: max_stars_repo_name\n    expected_fields: [content, max_stars_repo_name, avg_line_length, max_line_length, alphanum_fraction, size]\n    filter: code\n    targets: {dev: 1_000_000, test: 3_000_000}\n\n  rust:\n    loader: hf_stream\n    source: bigcode/the-stack-dedup\n    data_dir: data/rust\n    text_field: content\n    group_field: max_stars_repo_name\n    expected_fields: [content, max_stars_repo_name, avg_line_length, max_line_length, alphanum_fraction, size]\n    filter: code\n    targets: {dev: 1_000_000, test: 3_000_000}\n\n  contracts:\n    loader: local_files\n    source: CUAD v1 official release (Zenodo zip)\n    root: /workspace/btm/raw/cuad/full_contract_txt\n    glob: \"**/*.txt\"\n    text_field: text\n    group_field: path\n    expected_fields: [text, path]\n    filter: law\n    targets: {dev: null, test: null}\n    weights: {dev: 0.09, test: 0.91}\n\n  web:\n    loader: hf_stream\n    source: HuggingFaceFW/fineweb-edu\n    config: sample-10BT\n    text_field: text\n    group_field: id\n    expected_fields: [text, id]\n    filter: none\n    targets: {dev: 1_000_000, test: 3_000_000}\n",
+    "elm_javascript.yaml": "base: base_elm.yaml\nrun_name: elm_javascript\nmodel_init: /workspace/btm/ckpt/seed\ntrain_data: /workspace/btm/data/tok/javascript/train\n",
+    "elm_law.yaml": "base: base_elm.yaml\nrun_name: elm_law\nmodel_init: /workspace/btm/ckpt/elm_law_init\ntrain_data: /workspace/btm/data/tok/law/train\n",
+    "elm_python.yaml": "base: base_elm.yaml\nrun_name: elm_python\nmodel_init: /workspace/btm/ckpt/seed\ntrain_data: /workspace/btm/data/tok/python/train\n",
+    "eval.yaml": "data_root: /workspace/btm/data/tok\nlogprob_root: /workspace/btm/results/logprobs\nresults_root: /workspace/btm/results\nckpt_root: /workspace/btm/ckpt\nlog_root: /workspace/btm/logs\nwindow: 1024\nprior_windows: 100\nbatch_size: 32\ndtype: fp32\nattn_implementation: sdpa\nsplits: [dev, test]\ndomains: [python, javascript, law, typescript, rust, contracts, web]\nin_domain: [python, javascript, law]\nheld_out: [typescript, rust, contracts, web]\nelms: [elm_python, elm_javascript, elm_law]\ntopk: [1, 2]\n",
+    "smoke_python.yaml": "base: base_elm.yaml\nrun_name: smoke_python\nmodel_init: /workspace/btm/ckpt/seed\ntrain_data: /workspace/btm/data_smoke/tok/python/train\nglobal_batch_seqs: 32\ntrain_tokens: 2_621_440\neval_every_steps: 20\nresume_ckpt_every_steps: 10\nckpt_root: /workspace/btm/ckpt_smoke\n"
+  },
+  "requirements_lock": "annotated-doc==0.0.6\nannotated-types==0.8.0\nanyio==4.11.0\nargon2-cffi==25.1.0\nargon2-cffi-bindings==25.1.0\narrow==1.3.0\nasttokens==3.0.0\nasync-lru==2.0.5\nattrs==25.4.0\nbabel==2.17.0\nbeautifulsoup4==4.14.2\nbleach==6.2.0\nblinker==1.7.0\ncertifi==2025.10.5\ncffi==2.0.0\ncharset-normalizer==3.4.3\nclick==8.5.1\ncomm==0.2.3\ncontourpy==1.4.0\ncryptography==41.0.7\ncycler==0.12.1\ndatasets==5.2.0\ndbus-python==1.3.2\ndebugpy==1.8.17\ndecorator==5.2.1\ndefusedxml==0.7.1\ndill==0.4.1\ndistlib==0.4.0\ndistro==1.9.0\nexecuting==2.2.1\nfastjsonschema==2.21.2\nfilelock==3.20.0\nfonttools==4.68.0\nfqdn==1.5.1\nfsspec==2024.6.1\nh11==0.16.0\nhf-xet==1.8.0\nhttpcore==1.0.9\nhttpcore2==2.16.2\nhttplib2==0.20.4\nhttpx==0.28.1\nhttpx2==2.16.2\nhuggingface_hub==2.4.0\nidna==3.20\niniconfig==2.3.1\nipykernel==6.30.1\nipython==9.6.0\nipython_pygments_lexers==1.1.1\nipywidgets==8.1.7\nisoduration==20.11.0\njedi==0.19.2\nJinja2==3.1.6\njson5==0.12.1\njsonpointer==3.0.0\njsonschema==4.25.1\njsonschema-specifications==2025.9.1\njupyter-archive==3.4.0\njupyter-events==0.12.0\njupyter-lsp==2.3.0\njupyter_client==8.6.3\njupyter_core==5.8.1\njupyter_server==2.17.0\njupyter_server_terminals==0.5.3\njupyterlab==4.4.9\njupyterlab_pygments==0.3.0\njupyterlab_server==2.27.3\njupyterlab_widgets==3.0.15\nkiwisolver==1.5.1\nlark==1.3.0\nlaunchpadlib==1.11.0\nlazr.restfulclient==0.14.6\nlazr.uri==1.0.6\nmarkdown-it-py==4.3.0\nMarkupSafe==3.0.3\nmatplotlib==3.11.2\nmatplotlib-inline==0.1.7\nmdurl==0.1.2\nmistune==3.1.4\nmpmath==1.3.0\nmultiprocess==0.70.19\nnbclient==0.10.2\nnbconvert==7.16.6\nnbformat==5.10.4\nnest-asyncio==1.6.0\nnetworkx==3.3\nnotebook==7.4.2\nnotebook_shim==0.2.4\nnumpy==2.1.2\nnvidia-cublas-cu12==12.8.4.1\nnvidia-cuda-cupti-cu12==12.8.90\nnvidia-cuda-nvrtc-cu12==12.8.93\nnvidia-cuda-runtime-cu12==12.8.90\nnvidia-cudnn-cu12==9.10.2.21\nnvidia-cufft-cu12==11.3.3.83\nnvidia-cufile-cu12==1.13.1.3\nnvidia-curand-cu12==10.3.9.90\nnvidia-cusolver-cu12==11.7.3.90\nnvidia-cusparse-cu12==12.5.8.93\nnvidia-cusparselt-cu12==0.7.1\nnvidia-nccl-cu12==2.27.3\nnvidia-nvjitlink-cu12==12.8.93\nnvidia-nvtx-cu12==12.8.90\noauthlib==3.2.2\npackaging==25.0\npandas==3.1.1\npandocfilters==1.5.1\nparso==0.8.5\npexpect==4.9.0\npillow==11.0.0\nplatformdirs==4.5.0\npluggy==1.7.0\nprometheus_client==0.23.1\nprompt_toolkit==3.0.52\npsutil==7.1.0\nptyprocess==0.7.0\npure_eval==0.2.3\npyarrow==26.0.1\npycparser==2.23\npydantic==2.14.3\npydantic_core==2.50.4\nPygments==2.19.2\nPyGObject==3.48.2\nPyJWT==2.7.0\npyparsing==3.1.1\npytest==9.2.0\npython-apt==2.7.7+ubuntu5\npython-dateutil==2.9.0.post0\npython-json-logger==4.0.0\nPyYAML==6.0.3\npyzmq==27.1.0\nreferencing==0.36.2\nregex==2026.11.15\nrequests==2.32.5\nrfc3339-validator==0.1.4\nrfc3986-validator==0.1.1\nrfc3987-syntax==1.1.0\nrich==15.0.0\nrpds-py==0.27.1\nsafetensors==0.8.0\nSend2Trash==1.8.3\nsetuptools==80.9.0\nshellingham==1.5.4\nsix==1.16.0\nsniffio==1.3.1\nsoupsieve==2.8\nstack-data==0.6.3\nsympy==1.13.3\nterminado==0.18.1\ntinycss2==1.4.0\ntokenizers==0.23.3\ntorch==2.8.0+cu128\ntorchaudio==2.8.0+cu128\ntorchvision==0.23.0+cu128\ntornado==6.5.2\ntqdm==4.70.1\ntraitlets==5.14.3\ntransformers==5.23.0\ntriton==3.4.0\ntruststore==0.10.5\ntyper==0.29.1\ntypes-python-dateutil==2.9.0.20251008\ntyping-inspection==0.4.5\ntyping_extensions==4.16.0\nuri-template==1.3.0\nurllib3==2.5.0\nvirtualenv==20.34.0\nwadllib==1.3.6\nwcwidth==0.2.14\nwebcolors==24.11.1\nwebencodings==0.5.1\nwebsocket-client==1.9.0\nwidgetsnbextension==4.0.14\nxxhash==4.1.0\n",
+  "results": {
+    "REPORT.md": "7474cea642c74dd208e1086d019083adc5833b72bbb5927eaf4be0046eafd911",
+    "curve_elm_javascript.png": "22f58cb2c86b741655d49ae035e6e279527d393757325cac3407137c8f11192d",
+    "curve_elm_law.png": "f1940e2c4c4c8bec131a3224a52f62b6ea6d91d647252b840ee48dcddbd7108d",
+    "curve_elm_python.png": "41d3f5ce813f77ee29361930a714ce8e329f1ad57dce6c6a0748d6d96458ebd7",
+    "entropy.csv": "db8cdf3c56b923baf417d5bf396daaeac58ca0766800053c62fc9b4c2ed98d7c",
+    "law_init_weights.json": "2d26bff120f650076a7d70643db188beee2ce19e3185f005b7cf859c7211f5b1",
+    "logprobs/avg_post_contracts/contracts_test.json": "f634aef07f10bea1b69199327d55a91e5aaa19688894362c61582725f4e3f0cf",
+    "logprobs/avg_post_contracts/contracts_test.npy": "ea57d134b0a8930f2c232772b6793510709c03b3be26b038ce7d962b2a63db1a",
+    "logprobs/avg_post_javascript/javascript_test.json": "60d87fa4a8e0f1141c0a46a4a188602a076da993b5bbfe10d546ec0936d86ade",
+    "logprobs/avg_post_javascript/javascript_test.npy": "31ac8a7f0b5f3c1b57b479c47fadd6d421887ca558b5a066e0952c4e5a64d2bc",
+    "logprobs/avg_post_law/law_test.json": "bcd22de107d5877845be4b0318869e811c79122b3e141463190a7f12a3842a5a",
+    "logprobs/avg_post_law/law_test.npy": "238b1e5ba87a6f73174b3eb4daa84c04064513c04aee1110f9078473020a1a06",
+    "logprobs/avg_post_python/python_test.json": "4d588db7fffded451947aa807ddb37a6a1e88d015c5817088bcb8c27fadc643c",
+    "logprobs/avg_post_python/python_test.npy": "b4c6f77b4e935cea1022bd04c4c9db27baba1a06e432a494d01f6fa9585d78ac",
+    "logprobs/avg_post_rust/rust_test.json": "f2fc76f310d60d4618f161b7df21b1af47bccade64987251a357035f475598da",
+    "logprobs/avg_post_rust/rust_test.npy": "6f0113285eeca33ab3be4418411e6f078a89b2cac8e6c6c8e7653f80b0e7b310",
+    "logprobs/avg_post_typescript/typescript_test.json": "41caedbc8ce486b2424ca5c5e7bf1792227851a50f3372fe6928b3921d070327",
+    "logprobs/avg_post_typescript/typescript_test.npy": "a18bd26fecc66e539f68c5dc31f602c3e6a6be2fddf9faa8f73ff434dfe3e8b2",
+    "logprobs/avg_post_web/web_test.json": "7f0861840b781b274a963bfe0025458ede138c95129b098d15342a7eee019bcf",
+    "logprobs/avg_post_web/web_test.npy": "7d89f1ba41a526f55b860cd109cb88aafd3b3a278835f5921bff2b937cfd4f76",
+    "logprobs/avg_uniform/contracts_dev.json": "95288efaa9bb9da0d6ee44fd6c35c1202c6ae66ead257eaaf405968460ee1a5e",
+    "logprobs/avg_uniform/contracts_dev.npy": "38f775dccb34b3a96b0778ef170e7506270638f5ae1862f195223b927e0b33f2",
+    "logprobs/avg_uniform/contracts_test.json": "37bec0e9e852a88e946ad39320ba3bc1dea825a70a920e21cddad904361cd200",
+    "logprobs/avg_uniform/contracts_test.npy": "9b3639ccca5edecdd56ad5ad5da2eae731c7518a27104584913551fce65f533e",
+    "logprobs/avg_uniform/javascript_dev.json": "a80addcf897475d49160f286b32ac6a2a90af3cc53821bd4a844be280bbcc794",
+    "logprobs/avg_uniform/javascript_dev.npy": "6fc53ed136b40ef4459c933c27af180ea78ba5a662aa3e9843051c2da58a4c08",
+    "logprobs/avg_uniform/javascript_test.json": "b80d90e874911aaa85b3a4d03736cd845859c4605c49fd9e70f211fbf996a665",
+    "logprobs/avg_uniform/javascript_test.npy": "cccc1abf46825c5cec11a929c0df606a5b22ae79c3df6f3d09ae51ede8f5553d",
+    "logprobs/avg_uniform/law_dev.json": "1a6e03b18b3364c13f799ce9bc20dea6a74bc05481867be47e800a4d00f4c0a9",
+    "logprobs/avg_uniform/law_dev.npy": "993f6824cfd72da8922d7180546389e9a67a301fc7ef95f5d155676aa8724f6d",
+    "logprobs/avg_uniform/law_test.json": "e4fed503fe8e108d1555659e6e6ccdbd54c5e90fd0fa16717ee33845e667d229",
+    "logprobs/avg_uniform/law_test.npy": "45a9f588c1ba75090797c3d0546e70d22b991e79dbd747ef16e0d72c2c98bd63",
+    "logprobs/avg_uniform/python_dev.json": "ff0dd62e235f49fc72083ffc152aab496f512a18978a09384ea55df2b2362d4e",
+    "logprobs/avg_uniform/python_dev.npy": "20fa732dd7c106a99885cfcaac47d5aeefb945bd0e5a6a729b2c122af1506701",
+    "logprobs/avg_uniform/python_test.json": "ef41415e288910e567c173d0ae72e80637cbfee1dc3e95b193510904821a6ca9",
+    "logprobs/avg_uniform/python_test.npy": "1ed0d3e3da1969acc92f40b5109ba777899106b78f88732b289f2b56e0319d3a",
+    "logprobs/avg_uniform/rust_dev.json": "2b2c4fe132e1f7a02cbe012f7dc23ea3b7803937064db51b0bb3e32c13782717",
+    "logprobs/avg_uniform/rust_dev.npy": "6f3b413269e3d25dc3c3a3796be5615c43dd59c01fb69a11f9dd6dff3ccbb1a7",
+    "logprobs/avg_uniform/rust_test.json": "0afde7e4d3454749522131cd07c049487837aee15e0c2ca3954c65f8b0c82dca",
+    "logprobs/avg_uniform/rust_test.npy": "e35e97daf7ed19953ce2fb52564905afb2bbcdbc6c2d7e8d0f8f682d81ebac07",
+    "logprobs/avg_uniform/typescript_dev.json": "1acb4575fc7e96a31fd9b3cda6de84b26677f763932dd4bdab38c79384418510",
+    "logprobs/avg_uniform/typescript_dev.npy": "523e08633c5da3b9baa82e7b6ea023c757d77da38e5ab42737448ab182547351",
+    "logprobs/avg_uniform/typescript_test.json": "7a9a7a3b7ba0d8d4a79c9a95fd8c4549f63b036f7a7b2b63cd44c5bba284aa69",
+    "logprobs/avg_uniform/typescript_test.npy": "ba9ff2a3b18d2fe3ee5abc1af9c64cbc156ab4124b2e708da3014ad45ea56382",
+    "logprobs/avg_uniform/web_dev.json": "a3943dca95e99260f8820c326698a75752b0c889dfb963c2f340d64ac4c944ff",
+    "logprobs/avg_uniform/web_dev.npy": "ce6a1f56ba1d11abb04a7c50e2bd83025add9093b3b1df2052a00294f3d6706c",
+    "logprobs/avg_uniform/web_test.json": "c01a6501db4429360529e0bf1bf14e31a075f39b9c33d8c7dc7b6c83891f228c",
+    "logprobs/avg_uniform/web_test.npy": "b0c85942a68549c1685690b630475e1c1aff96b122c0463844cd58320939cf0a",
+    "logprobs/elm_javascript/contracts_dev.json": "f544b3cd24c3c4957afa991114f203c5bedac42d9b6cf78a8b2097090f3256fe",
+    "logprobs/elm_javascript/contracts_dev.npy": "1f20c6c6c63e28e40fbdd5c62766de5b08cd382d60d1a119f8784d6522201a80",
+    "logprobs/elm_javascript/contracts_test.json": "b55d33d9bc005321f1426271f86f50dc84afe65322b462235c8c5939a6121074",
+    "logprobs/elm_javascript/contracts_test.npy": "1415b8efb97befdc033a77d74bc9918ab0fd9122ea092bf51bb3190251be90aa",
+    "logprobs/elm_javascript/javascript_dev.json": "76ed97b5887dd8cab67e19176d0b179f118ac054ac666e675d83cf83cea957e1",
+    "logprobs/elm_javascript/javascript_dev.npy": "f09ba6c58e58719f4325dcfc5b19ba550244ce5dbb3596b9b33814488fd9cfb1",
+    "logprobs/elm_javascript/javascript_test.json": "7aa95f8f35491746ca9af6d1f98218605024476c40ca18a794f60c772551acf9",
+    "logprobs/elm_javascript/javascript_test.npy": "31ac8a7f0b5f3c1b57b479c47fadd6d421887ca558b5a066e0952c4e5a64d2bc",
+    "logprobs/elm_javascript/law_dev.json": "456412a5e0777af0a31c61c94871948c09f030def77bcbc3906885395a7633b2",
+    "logprobs/elm_javascript/law_dev.npy": "bff31447718eb49ea63acf13931753e66eac43beea71d1f246cde3e77d034e01",
+    "logprobs/elm_javascript/law_test.json": "4b959a5c3edaba51e6d05e10b359988d714fe26fd9587a63ec6ca5cc3939d56c",
+    "logprobs/elm_javascript/law_test.npy": "602723eef87505333429f07f01646a9a5d2428d4f61c7e110d5db85cc96402a2",
+    "logprobs/elm_javascript/python_dev.json": "47baac2c2af22cf558d11bdd68b6e9f8152985081e445d99326ceba1ec622c53",
+    "logprobs/elm_javascript/python_dev.npy": "a8e72c111ba483176909bf8efbb6128ac243ee4a8834e214651bf049df0c159b",
+    "logprobs/elm_javascript/python_test.json": "a603937f99777105ca61ccbd558f4f2ffbfa6a8ce9e183f07edbabd3b5014d25",
+    "logprobs/elm_javascript/python_test.npy": "b21a390ec54dbacb19343dbc7eec64a03250278f9e83fa9d781b496d9d97de0a",
+    "logprobs/elm_javascript/rust_dev.json": "3e41ffa8ac6b648ab09f893916ad2368d59786890ef05746c32c0617614f5b0d",
+    "logprobs/elm_javascript/rust_dev.npy": "ae4050aa8d1f5ee83f5f5581a0786d324358d749b41484f9fcf8dd201ccbc5e1",
+    "logprobs/elm_javascript/rust_test.json": "ca3c0093a150e120ec3e7ee770054424db4d6b5bf8385c2d9eaf1ae68ed0716a",
+    "logprobs/elm_javascript/rust_test.npy": "5572495fee6e0c96995460501ca6e97f59daa65c77c304041bbf2a02b7783d6d",
+    "logprobs/elm_javascript/typescript_dev.json": "b4c427808dc7c709d620c771150155b787a489db76baae0808db4f5f4008c757",
+    "logprobs/elm_javascript/typescript_dev.npy": "85b7a3d52d8330f68bd0d7886a6c67f7a4d283ffd330f6bbd481336eba744e98",
+    "logprobs/elm_javascript/typescript_test.json": "d4535347d68fea30955ee2d2f59eb391fb7302d26a64ea6f78e8e88d2f877444",
+    "logprobs/elm_javascript/typescript_test.npy": "a18bd26fecc66e539f68c5dc31f602c3e6a6be2fddf9faa8f73ff434dfe3e8b2",
+    "logprobs/elm_javascript/web_dev.json": "06b19faffcbf12052c66120b6f72d9cfea80c8cbd119942b64d0492d26da37ed",
+    "logprobs/elm_javascript/web_dev.npy": "3ba7ccb5b06839f99fa8f9371bfc1d3714fbcbcc7e300cd6ebd405f803dedb4b",
+    "logprobs/elm_javascript/web_test.json": "628efe84aa914c1fa02bbe39ed23e1e107e8dd0b046e6e042f0aca0e93f6d448",
+    "logprobs/elm_javascript/web_test.npy": "31f5177943099e0ca73e040eb1bd3b9fa967861386a6c74c5248f98abcec8add",
+    "logprobs/elm_law/contracts_dev.json": "b1453dcd1f18c20ad888c548cdd2dcd0e158edb6ed6f9c560cac0384b0e31887",
+    "logprobs/elm_law/contracts_dev.npy": "fd85465ed5cfc28c75061e0dec78ecf5be2423db62a1a950f8d3d093b5c8467c",
+    "logprobs/elm_law/contracts_test.json": "706284efdcf4f6d220479b2ee883d8d465810524fc126c7d093c9beae9652655",
+    "logprobs/elm_law/contracts_test.npy": "db3b950be00bf996c8850edb89dfc76913220aae44541cec74f11334750e0cb0",
+    "logprobs/elm_law/javascript_dev.json": "17d27aa1d43fbbb9cd0ac2399a0fd0d026b8c13623d1d3f68a4a302234b58a48",
+    "logprobs/elm_law/javascript_dev.npy": "cf960c135ed4e83d14973ea788912389678b3470135fc58bb8baa825416ef69a",
+    "logprobs/elm_law/javascript_test.json": "192427d803db0e8190e9ef9080a7ea52d7913124923e3faa7ae3239434192eec",
+    "logprobs/elm_law/javascript_test.npy": "44b1125e1463aea34082499ec110882f38ec23476f3dfcdb510a6926ad1d2165",
+    "logprobs/elm_law/law_dev.json": "4ff0eada3b089c866e2f93c66ffd716cba927beda7036e38b719de154024a245",
+    "logprobs/elm_law/law_dev.npy": "05e0303a6e5a190e1bcebdbb2137b61c760284ddef93fd2e25fea968bfd27a26",
+    "logprobs/elm_law/law_test.json": "d084cad0397ec329c3671de2e8ca0f2506a9144d0cc0eff650df89ce2379f9a0",
+    "logprobs/elm_law/law_test.npy": "238b1e5ba87a6f73174b3eb4daa84c04064513c04aee1110f9078473020a1a06",
+    "logprobs/elm_law/python_dev.json": "69f68445fb56fac4a5e8bb4b07bcd3694df311fbd728a240b94ce4c4a4b08d15",
+    "logprobs/elm_law/python_dev.npy": "084b7a90ec66d876f51ea6580eef4d97bb0dadf52aefaa3f591aba3af9397adc",
+    "logprobs/elm_law/python_test.json": "67131071b8740470c676c293166a06c38f9789931dd9dd644e49494a7fc4a7af",
+    "logprobs/elm_law/python_test.npy": "aa80e608ea35cc31eb1d9348dd4c131cf023aa6034f805f0cfbd1c0ada391118",
+    "logprobs/elm_law/rust_dev.json": "c40daa53fdf163de7b6dee3bb71a1510aab233fe40a45c37b93b247cc69317fa",
+    "logprobs/elm_law/rust_dev.npy": "c1357205c3cb0e6c56481ab5ff24a74e5937aeb2ab346abc5ccc5c514723502b",
+    "logprobs/elm_law/rust_test.json": "a579abee1164c9c0d1165e19f4acd25e9760471e7bb6f155886fd8eb616dfbb8",
+    "logprobs/elm_law/rust_test.npy": "c729332a70b965c16d4f7ed725f2f2801af267baee04fc62ca40d166d344a4eb",
+    "logprobs/elm_law/typescript_dev.json": "3838f33efe51a24a5ea091416bcdfad5b6190915002ab3db324ef62b5d7d4337",
+    "logprobs/elm_law/typescript_dev.npy": "bf528a585c331f0191852849606c5cb63509cbaa63f1293ea0feae80aa10e5f6",
+    "logprobs/elm_law/typescript_test.json": "0e7fd45d7cd48feffb8dacd6004dc8a523fe975332764d05c96ce447adbb9570",
+    "logprobs/elm_law/typescript_test.npy": "5a14a395e91b2d66bc75beefc83ba010d776c5f54e3c46991b2484a9008853fc",
+    "logprobs/elm_law/web_dev.json": "397c3a31b153a33ef0549559ea882d9e1281a222e5cf6d36f67a6235e208d801",
+    "logprobs/elm_law/web_dev.npy": "d4531fb3b6e9362a17fcde9c3676ebed6dd595e0a24e6a11234ae12a4130aa4a",
+    "logprobs/elm_law/web_test.json": "76688d2e20b76097756c1d235a6a19582e854ecbe79649a8e111079a518ba1f0",
+    "logprobs/elm_law/web_test.npy": "45d609ef4ad119d59bd9cc990dbdce111c7b1cb5b734e2ced3c9576fa5425df8",
+    "logprobs/elm_law_init/law_dev.json": "c37005cf1d9d1ebc84648f8d38811e8daadf400b278e9e5d093f874def0cfda7",
+    "logprobs/elm_law_init/law_dev.npy": "cc9786138a64c2a1322f955ea5ca05ccef529f4d2c5fe8dfa607f6f3eabc8280",
+    "logprobs/elm_python/contracts_dev.json": "5314b2d05942bb5759011e341244dc1648f225fbfe4c2b8b9fa2d25114f3fa17",
+    "logprobs/elm_python/contracts_dev.npy": "79724d57697126157525bb57354bacf36b7acae80135758a1a7854bf463f98f0",
+    "logprobs/elm_python/contracts_test.json": "7aea26497ac70ded79e368150147f40875d1255a3226034acac5cd57c992f8b8",
+    "logprobs/elm_python/contracts_test.npy": "7e36ed14075aee3857023c69dfea8033ba6c0656b5952e9f4f7513f337ccbd81",
+    "logprobs/elm_python/javascript_dev.json": "41d612fca2a334bdfb31ab0918e3f1f16515bc143a300c353d1d775955c2ec33",
+    "logprobs/elm_python/javascript_dev.npy": "0c81bcda5b2091f96af13225d600920de24c8ef54004596a6815d8fa83f18cf5",
+    "logprobs/elm_python/javascript_test.json": "59173d75241b914305c84dcae7a9b26ae37ab9aa7e0aa0ef658301f82c517e2f",
+    "logprobs/elm_python/javascript_test.npy": "fbc5f301fdb5a51c4758482286d38b672002eb01a25cfe03eaabc8205efef480",
+    "logprobs/elm_python/law_dev.json": "9ac3fe731af4f46ba0c00b09caadc9ec85f6bab4dae465705b5a58de9e328c89",
+    "logprobs/elm_python/law_dev.npy": "247eb4932e1a8be650332202ff9406a209c4acfd3240d3461c473ed13bbe22bb",
+    "logprobs/elm_python/law_test.json": "ecc6d788fda0593ee03c5b2800e2c539e499cc52dd9401355f7285e9a0c28c99",
+    "logprobs/elm_python/law_test.npy": "2004cbd798768c9eb846a782df260c0c0d7b9f969f891e314f64b4274838e174",
+    "logprobs/elm_python/python_dev.json": "52a3dd1c102449f947578e200aa724001a6340067fb0a1393044164d9f622847",
+    "logprobs/elm_python/python_dev.npy": "e5aa0a5b5e24901898f623a4410dbaf82e844d0720d53601f589609729e8fd35",
+    "logprobs/elm_python/python_test.json": "5b23017f561c220073407bbb857478e6d6056e5719e47f0bd23404731ebc14a6",
+    "logprobs/elm_python/python_test.npy": "b4c6f77b4e935cea1022bd04c4c9db27baba1a06e432a494d01f6fa9585d78ac",
+    "logprobs/elm_python/rust_dev.json": "21e423b30bfd05f1450c0fc573e2a2e7826b92e0c8b845aca295d69a94e3be65",
+    "logprobs/elm_python/rust_dev.npy": "8dbe5b021c4ef63bdcd114863297f19fee1af8ce01ba390ab1e08210888c99cf",
+    "logprobs/elm_python/rust_test.json": "e069f85d266cd875a731ba90da40111b99a366521e82e19be42f0ba603ae0516",
+    "logprobs/elm_python/rust_test.npy": "f77bb2692814346e13669e1df205de45f9ac11e473bef60bb256d83867151260",
+    "logprobs/elm_python/typescript_dev.json": "931f3e7d36afb6575cdee12ad024ea7e2e3a477ee0be3fc1b7fe52c5d09a852b",
+    "logprobs/elm_python/typescript_dev.npy": "5b0ddecad04a7de27c83650663d3229da21caf6308164ff34e6df2570dfef760",
+    "logprobs/elm_python/typescript_test.json": "65a5771d9f2fe1f0cfb4d9c4b026694287d74713c8b5894b20a7f474427cc7f5",
+    "logprobs/elm_python/typescript_test.npy": "56827a247108455cc7283d297f778fef8c7974639c0db28083de464d06f8b343",
+    "logprobs/elm_python/web_dev.json": "c5e5f344e327bd2eca61136f006b9530fe5b7b580380d8137ffaee6c60167c8f",
+    "logprobs/elm_python/web_dev.npy": "858db8bbf3c61e5624ebfb0a2f7ba57a4146bd6d470e6470508b4aeda384dd4f",
+    "logprobs/elm_python/web_test.json": "2e548946fccc249dc93fae8d8bd8b9e1354a59efe14fff61a5c714924ddcadf7",
+    "logprobs/elm_python/web_test.npy": "8d20b28bcbf8be73b596a423c966dfd42416749c4d760e53001ef90c9941f32d",
+    "logprobs/law_init_uniform/law_dev.json": "ed4964756b58d0987c5febd31477b04bb827b739084ef073cd229c21f7525c54",
+    "logprobs/law_init_uniform/law_dev.npy": "d9ccee0d114fe9677f1e40d4a7b7ec390c3df01d4792c97af99bc07d8639102d",
+    "logprobs/seed/contracts_dev.json": "c343a584898875d32dde7aeb99ca57e006f3d1d53f072f39f29fd99a388d9450",
+    "logprobs/seed/contracts_dev.npy": "5c436917de93b5b9403fc4b666dabc11aae0ab23fa0e9ae6d6e46824c8a38d01",
+    "logprobs/seed/contracts_test.json": "2f0cbecb826f07e27a08ffb38f7076044762bdbae200d225ffab5d8702099f61",
+    "logprobs/seed/contracts_test.npy": "24f296f820fb6902fa72e084af3dd1486a76d074dcfd9acb117d17a48d7a114d",
+    "logprobs/seed/javascript_dev.json": "5796517ad4e2cba30032c6e890ad7e7575ec0553673ef832869f14f222099191",
+    "logprobs/seed/javascript_dev.npy": "c203a8257476192cb2733346813218f7327ddf700e8bcc350d3dc7f3ec60ea23",
+    "logprobs/seed/javascript_test.json": "9300062789d583ad6b2cdfc0304d7b57bd1cdff37ef8ad14111b72eb58986e32",
+    "logprobs/seed/javascript_test.npy": "79aa7308aaaa26fd66b5bbceffed0c9ff0182bedeaee8d7cea02cfdbd91aac99",
+    "logprobs/seed/law_dev.json": "c1b0aaeedcf1db3dc1432cd7543e3e1ed3e51905488c50274b40fa371fc14ce9",
+    "logprobs/seed/law_dev.npy": "1eb08ad652705af2839d7e8740f452b83c084c64ac086b676a11e59fc862b856",
+    "logprobs/seed/law_test.json": "7522ecffcffef2b7283874aa03664075c14868e6bc18ec24a7b1cfcfc5988047",
+    "logprobs/seed/law_test.npy": "f44a4489fab43a96481f2a6246b1e245f1cfcdf38e95c76d5682493abcb534a6",
+    "logprobs/seed/python_dev.json": "6e442841059c82cf833421da0e64ec3d412eef08f96696167e577802f3305643",
+    "logprobs/seed/python_dev.npy": "39a107d12711db24b7deea1a8f9cb97d9af045f873dcd22f3327a227b7a76e9c",
+    "logprobs/seed/python_test.json": "ff4f64b4e9d35d65ec90a8cbae46f0acc4cfe0cb48c6a737981d2313f2db3473",
+    "logprobs/seed/python_test.npy": "9bc03aa0fbd94d5ad06d5356313305635909934207db8f306cdcffc187ec6424",
+    "logprobs/seed/rust_dev.json": "b0abb1fae5defd396077bcd5240f45840171c214845545ca6c3f4ebaa956f410",
+    "logprobs/seed/rust_dev.npy": "406d2beaaef68fe1580750d1f27ca74e7747867a8ca01123fafcd7db6eaee2f6",
+    "logprobs/seed/rust_test.json": "3508eeea39f4d202bbd9d2f6e2885b15586f522176a4055030dafe0e2f4ba878",
+    "logprobs/seed/rust_test.npy": "bb78af1ae5699d2014c1028e4601e72df108ae1f6db69fb35b532e94df5f8eab",
+    "logprobs/seed/typescript_dev.json": "fcca3d8fd3e7f60eca66ce904bb93240b13ae8db9042011837c0ba0cdb8f78c2",
+    "logprobs/seed/typescript_dev.npy": "a4d5f70b8ff969d655c78b1dfee86c106d662fadd1ff3d619b25665042770d63",
+    "logprobs/seed/typescript_test.json": "be9389ba2a501cf871ba1784cf933cdf24d1574e2a7ff67a789c9db394d3e691",
+    "logprobs/seed/typescript_test.npy": "981ff92efa8cdffad9c13bfea20ed419c7e8caf2b98b69ee467c376d66506868",
+    "logprobs/seed/web_dev.json": "88c4c3e985ad31555afb6aa0f0e1c4a05142dae5ac7690b40259bf45d3f2cc9d",
+    "logprobs/seed/web_dev.npy": "3941d0d8c39bc7aa796dc0ee98ef8864fefcc059371656ee21e78e592f7a69c7",
+    "logprobs/seed/web_test.json": "78f462aa4336807cb41bda6923b15e515bf0f2bf8ae1d3d7edf8aae29cd22eed",
+    "logprobs/seed/web_test.npy": "94290b8513a39848dd036397dcd7c45f03c3b74adba3e5c7f29a1d37e1fef72e",
+    "ppl_test.csv": "e32fbfedba83d33970b1818b4efe7c391b648c1c5e7eec973dccce23f96948f3",
+    "prior_contracts.json": "e69543464f173513112eec3b86039c8b87676b2ec10cf5f0e8b84d505da583b8",
+    "prior_javascript.json": "21353899aca0c6a57bb1b870af8011dd477823845bd7529c6221e3834e65523a",
+    "prior_law.json": "32f22f2bf60c9955fc4081a0cd26d26eeb7194d8b429de5f43760026a78ff99a",
+    "prior_python.json": "c557bd2cffb5c48698c344f8b922e58aee63e6e6a4b09b640ebe58ed14071c94",
+    "prior_rust.json": "1175df4d51d30fb9cd8c28382b8a259474dcb56189cdeb8dd7ba27191c60a971",
+    "prior_typescript.json": "5ca791fc04529300fb79b6dd4037a6b8e40c38ab03d8feccf1bd48452e7661db",
+    "prior_web.json": "2cc89b9f78ec7c2412c454882338fd3e23233bc2b85329a5277b13ded8baafb8",
+    "priors.csv": "fd8cec6ea5d669925109916a76c46d65be48eb33551a580e198cd12bd480a3b3",
+    "seed_ppl.csv": "18a8fc2455802a66d51aed7112bc5c114e5e074698c4cc1c0bed7eda295f7c56"
+  }
+}
