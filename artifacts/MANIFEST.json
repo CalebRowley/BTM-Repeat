@@ -168,7 +168,7 @@
       },
       "source": "CUAD v1 official release (Zenodo zip)",
       "revision": "sha256:35aac53ea6b103d902b14b599f72ccb615cfd4160be617b75a7b83628c4e0360",
-      "data_dir": "/Users/calebr/Desktop/Coding/BTM-Repeat/CUAD_v1/full_contract_txt",
+      "data_dir": "CUAD_v1/full_contract_txt",
       "config": null,
       "filter": "law",
       "filter_params": {
@@ -206,7 +206,7 @@
       },
       "source": "CUAD v1 official release (Zenodo zip)",
       "revision": "sha256:35aac53ea6b103d902b14b599f72ccb615cfd4160be617b75a7b83628c4e0360",
-      "data_dir": "/Users/calebr/Desktop/Coding/BTM-Repeat/CUAD_v1/full_contract_txt",
+      "data_dir": "CUAD_v1/full_contract_txt",
       "config": null,
       "filter": "law",
       "filter_params": {
